@@ -1,0 +1,19 @@
+.listBlocks{
+    margin: 0 auto;
+    min-height: 520px;
+    min-width: 90%;
+    text-align: center;
+}
+
+.listBlocks > .block{
+    background-color: rgb(79, 193, 193);
+    color: rgb(19, 16, 16);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: center;
+    transition-duration: 150ms;
+    transition-property: height;
+    transition-timing-function: ease-in;
+}
